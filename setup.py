@@ -12,7 +12,7 @@ setup(
     name="q2-gneiss",
     version='0.0.1',
     packages=find_packages(),
-    install_requires=['scikit-bio', 'qiime >= 2.0.0', 'q2-types'
+    install_requires=['gneiss', 'scikit-bio', 'qiime >= 2.0.0', 'q2-types'
                       'IPython >= 3.2.0', 'matplotlib >= 1.4.3',
                       'numpy >= 1.9.2', 'pandas >= 0.18.0', 'scipy >= 0.15.1',
                       'nose >= 1.3.7', 'scikit-bio>=0.4.2', 'ete3'],
